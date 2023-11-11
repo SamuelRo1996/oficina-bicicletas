@@ -1,0 +1,38 @@
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Style the body */
+body {
+    background-color: #f8f8f8; /* Set a background color for the body */
+    padding: 20px; /* Add some padding to the body */
+}
+
+/* Center the links */
+body > a {
+    margin: 5px auto;
+    display: block;
+    width: fit-content;
+}
