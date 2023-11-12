@@ -15,7 +15,11 @@ async function buscarUsuarios () {
     tdEmail.innerText = usuario.email;
     tdSenha.innerText = usuario.senha;
     tdAcoes.innerHTML = `
+<<<<<<< HEAD
       <a href="cadastrousuarios.html?id=${usuario.id}">Editar</a>
+=======
+      <a href="grudusuarios.html?id=${usuario.id}">Editar</a>
+>>>>>>> 212a8817458883c3fe5e7452a36d372abe9ed65c
       <button onclick="excluir(${usuario.id})">Excluir</button>
     `;
 
